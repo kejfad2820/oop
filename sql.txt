@@ -1,1 +1,2 @@
-
+ static string relativePath = @"..\\..\\Hotel.mdf";
+        string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=Hotel.mdf;AttachDBFilename={Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativePath)};Integrated Security=True;Connection Timeout=5";
